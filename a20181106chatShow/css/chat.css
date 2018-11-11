@@ -1,0 +1,25 @@
+.head{height: 120px;background-color: #fe9bbd;}
+.name{font-size: 40px;color: #fff;line-height: 120px;text-align: center;}
+.menu{background-position: -217px 0;width: 10px;height: 40px;top: 50%;margin-top: -20px;left: 40px;}
+.collection{background-position: -246px 0;width: 40px;height: 40px;top: 50%;margin-top: -20px;right: 35px;}
+.chat_box{background-color: #f8f8f8;overflow-y: auto;padding: 0 20px;}
+.chat_box::-webkit-scrollbar {width: 10px;}
+.chat_box::-webkit-scrollbar-thumb {background: #fe9bbd;border-radius: 5px;}
+.chat_box::-webkit-scrollbar-track {background: rgba(255,255,255,0);}
+.list_msg{float: left;padding-top: 20px;}
+.list_msg li.pic_pros{width: 80px;float: left;margin: 0 20px;}
+.list_msg img{width: 80px;height: 80px;display: block;box-shadow: 2px 2px 10px rgba(0,0,0,0.2),-2px -2px 10px rgba(0,0,0,0.2);border-radius: 10px;}
+.list_msg li.text_pros{width: auto;float: left;background-color: #9ec9f6;padding: 20px 20px;max-width: 480px;box-shadow: 2px 2px 10px rgba(0,0,0,0.2),-2px -2px 10px rgba(0,0,0,0.2);border-radius: 10px;position: relative;}
+.list_msg li.text_pros em.pros_sl{width: 0;height: 0;border-width: 10px;border-style: solid;border-color:  transparent #9ec9f6 transparent transparent;display: block;position: absolute;left: -20px;top: 30px;}
+.list_msg li p{font-size: 30px;color: #fff;line-height: 40px;}
+.msg_mysel{float: right;}
+.msg_mysel li.text_pros{background-color: #feabc9;}
+.msg_mysel li.text_pros em.pros_sr{width: 0;height: 0;border-width: 10px;border-style: solid;border-color:  transparent  transparent  transparent #feabc9;display: block;position: absolute;right: -20px;top: 30px;}
+.box_input{height: 100px;background-color: #fff;}
+.box_input textarea{resize: none;display: block;width: 540px;display: block;border: 0;background: none;font-size: 30px;padding: 30px 20px 0;color: #68558f;float: left;height: 70px;line-height: 40px;overflow-y: auto;}
+.box_input textarea::-webkit-scrollbar {width: 10px;}
+.box_input textarea::-webkit-scrollbar-thumb {background: #fe9bbd;border-radius: 5px;}
+.box_input textarea::-webkit-scrollbar-track {background: rgba(255,255,255,0);}
+.btn_send{width: 80px;height: 80px;border-radius: 100%;float: left;margin: 10px 0 0 70px;background: linear-gradient(#cdb3f0, #a0c8f6);font-size: 20px;line-height: 80px;text-align: center;color: #fff;}
+:focus{outline: none;}
+

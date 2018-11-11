@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="author" content="Tencent-CP" />
+<meta name="format-detection" content="telephone=no" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+<meta name="keywords" content="搞事">
+<meta name="description" content="搞事">
+<!-- 重构：利威尔18191268542 | 创建：2018/11/06 | 更新：| 搞事 -->
+<title>Chat</title>
+<link rel="stylesheet" type="text/css" href="css/reset.css"/>
+<link rel="stylesheet" type="text/css" href="css/chat.css"/>
+<script type="text/javascript" src="js/scale.js"></script>
+<script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
+</head>
+<body>
+
+<div class="wrap">
+	<header class="head pr">
+		<h1 class="hide">Chat</h1>
+		<p class="name">亲爱的</p>
+		<a class="menu sp db pa" href="javascript:;" title="菜单">菜单</a>
+		<a class="collection sp db pa" href="javascript:;" title="收藏">收藏</a>
+ 	</header>	
+	<section class="content pr" id="ct">
+		<div class="chat_box">
+			<ul class="list_msg">
+				<li class="pic_pros"><img src="images/pros.png" alt="头像"/></li>
+				<li class="text_pros"><em class="pros_sl"></em><p>早安，亲爱的。早安，亲爱的。早安，亲爱的。早安，亲爱的。早安，亲爱的。</p></li>
+			</ul>
+			<ul class="list_msg msg_mysel">
+				<li class="text_pros"><em class="pros_sr"></em><p>早安，亲爱的。早安，亲爱的。早安，亲爱的。早安，亲爱的。早安，亲爱的。</p></li>
+				<li class="pic_pros"><img src="images/pros2.png" alt="头像"/></li>
+			</ul>
+			<ul class="list_msg">
+				<li class="pic_pros"><img src="images/pros.png" alt="头像"/></li>
+				<li class="text_pros"><em class="pros_sl"></em><p>早安，亲爱的。早安，亲爱的。早安，亲爱的。早安，亲爱的。早安，亲爱的。</p></li>
+			</ul>
+			<ul class="list_msg msg_mysel">
+				<li class="text_pros"><em class="pros_sr"></em><p>早安，亲爱的。早安，亲爱的。早安，亲爱的。早安，亲爱的。早安，亲爱的。</p></li>
+				<li class="pic_pros"><img src="images/pros2.png" alt="头像"/></li>
+			</ul>
+			<ul class="list_msg">
+				<li class="pic_pros"><img src="images/pros.png" alt="头像"/></li>
+				<li class="text_pros"><em class="pros_sl"></em><p>早安，亲爱的。早安，亲爱的。早安，亲爱的。早安，亲爱的。早安，亲爱的。</p></li>
+			</ul>
+			<ul class="list_msg msg_mysel">
+				<li class="text_pros"><em class="pros_sr"></em><p>早安，亲爱的。早安，亲爱的。早安，亲爱的。早安，亲爱的。早安，亲爱的。</p></li>
+				<li class="pic_pros"><img src="images/pros2.png" alt="头像"/></li>
+			</ul>
+			<ul class="list_msg">
+				<li class="pic_pros"><img src="images/pros.png" alt="头像"/></li>
+				<li class="text_pros"><em class="pros_sl"></em><p>早安，亲爱的。早安，亲爱的。早安，亲爱的。早安，亲爱的。早安，亲爱的。</p></li>
+			</ul>
+			<ul class="list_msg msg_mysel">
+				<li class="text_pros"><em class="pros_sr"></em><p>早安，亲爱的。早安，亲爱的。早安，亲爱的。早安，亲爱的。早安，亲爱的。</p></li>
+				<li class="pic_pros"><img src="images/pros2.png" alt="头像"/></li>
+			</ul>
+			<ul class="list_msg">
+				<li class="pic_pros"><img src="images/pros.png" alt="头像"/></li>
+				<li class="text_pros"><em class="pros_sl"></em><p>早安，亲爱的。早安，亲爱的。早安，亲爱的。早安，亲爱的。早安，亲爱的。</p></li>
+			</ul>
+			<ul class="list_msg msg_mysel">
+				<li class="text_pros"><em class="pros_sr"></em><p>早安，亲爱的。早安，亲爱的。早安，亲爱的。早安，亲爱的。早安，亲爱的。</p></li>
+				<li class="pic_pros"><img src="images/pros2.png" alt="头像"/></li>
+			</ul>
+			<ul class="list_msg">
+				<li class="pic_pros"><img src="images/pros.png" alt="头像"/></li>
+				<li class="text_pros"><em class="pros_sl"></em><p>早安，亲爱的。早安，亲爱的。早安，亲爱的。早安，亲爱的。早安，亲爱的。</p></li>
+			</ul>
+			<ul class="list_msg msg_mysel">
+				<li class="text_pros"><em class="pros_sr"></em><p>早安，亲爱的。早安，亲爱的。早安，亲爱的。早安，亲爱的。早安，亲爱的。</p></li>
+				<li class="pic_pros"><img src="images/pros2.png" alt="头像"/></li>
+			</ul>
+		</div>
+		<div class="box_input c">
+			<textarea type="text" placeholder="输入消息"></textarea>
+			<a class="btn_send" href="javascript:;" title="发送">发送</a>
+		</div>
+	</section>
+</div>
+<script>
+function chatBox () {
+	var mainH = $('body').height();
+	$('.chat_box').height(mainH-220);
+}
+chatBox ();
+$(window).on('resize',function () {
+	mainH = $('body').height();
+	$('.chat_box').height(mainH-220);
+})
+//console.log($('body').height()+'+++++++'+$('.chat_box').height())
+</script>
+</body>
+</html>
